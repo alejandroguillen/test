@@ -1,0 +1,7 @@
+testcodejordi
+----------------------
+Info help file code
+
+Code from: GitHub/jordist 
+branch: jordi
+last commit: Nov 5, 2004 - Changes, by jordist
