@@ -35,19 +35,6 @@ RM := rm -rf
 -include Release_BBW/src/Messages/subdir.mk
 -include Release_BBW/src/ASN.1/subdir.mk
 -include Release_BBW/src/subdir.mk
--include Release_BB/src/Tasks/subdir.mk
--include Release_BB/src/TaskManager/subdir.mk
--include Release_BB/src/S2GInterface/subdir.mk
--include Release_BB/src/RadioSystem/WiFi/subdir.mk
--include Release_BB/src/RadioSystem/Telosb/subdir.mk
--include Release_BB/src/RadioSystem/subdir.mk
--include Release_BB/src/NodeManager/subdir.mk
--include Release_BB/src/MultimediaSystem/thirdparty/coder/subdir.mk
--include Release_BB/src/MultimediaSystem/thirdparty/agast/src/subdir.mk
--include Release_BB/src/MultimediaSystem/subdir.mk
--include Release_BB/src/Messages/subdir.mk
--include Release_BB/src/ASN.1/subdir.mk
--include Release_BB/src/subdir.mk
 -include subdir.mk
 -include objects.mk
 
@@ -83,7 +70,7 @@ all: testcodejordi
 testcodejordi: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C++ Linker'
-	g++ -L/usr/include/boost -L/usr/lib/lp_solve -L/usr/local/lib -o "testcodejordi" $(OBJS) $(USER_OBJS) $(LIBS)
+	g++  -o "testcodejordi" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

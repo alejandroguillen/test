@@ -50,17 +50,4 @@ Release_BBW/src/MultimediaSystem/thirdparty/agast/src \
 Release_BBW/src/MultimediaSystem \
 Release_BBW/src/Messages \
 Release_BBW/src/ASN.1 \
-Release_BB/src \
-Release_BB/src/Tasks \
-Release_BB/src/TaskManager \
-Release_BB/src/S2GInterface \
-Release_BB/src/RadioSystem/WiFi \
-Release_BB/src/RadioSystem/Telosb \
-Release_BB/src/RadioSystem \
-Release_BB/src/NodeManager \
-Release_BB/src/MultimediaSystem/thirdparty/coder \
-Release_BB/src/MultimediaSystem/thirdparty/agast/src \
-Release_BB/src/MultimediaSystem \
-Release_BB/src/Messages \
-Release_BB/src/ASN.1 \
 
