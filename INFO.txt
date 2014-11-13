@@ -1,7 +1,10 @@
-testcodejordi
+test
 ----------------------
 Info help file code
 
-Code from: GitHub/jordist 
-branch: jordi
-last commit: Nov 5, 2004 - Changes, by jordist
+Code from: GitHub/alejandroguillen 
+branch: alejandroguillen
+	Original code from: GitHub/jordist
+	Original last commit: Nov 5, 2004 - Changes, by jordist
+last commit:
+

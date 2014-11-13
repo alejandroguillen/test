@@ -35,7 +35,7 @@ CPP_DEPS += \
 src/MultimediaSystem/%.o: ../src/MultimediaSystem/%.cpp
 	@echo 'Building file: $<'
 	@echo 'Invoking: GCC C++ Compiler'
-	g++ -I/usr/local/include/opencv -I"/home/alexis/workspace/testcodejordi/src/MultimediaSystem/includes" -I"/home/alexis/workspace/testcodejordi/src" -I"/home/alexis/workspace/testcodejordi/src/ASN.1" -I/usr/local/include -I/usr/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
+	g++ -I/usr/local/include/opencv -I"/home/alexis/workspace/test/src/MultimediaSystem/includes" -I"/home/alexis/workspace/test/src" -I"/home/alexis/workspace/test/src/ASN.1" -I/usr/local/include -I/usr/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

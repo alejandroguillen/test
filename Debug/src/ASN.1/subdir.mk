@@ -122,7 +122,7 @@ C_DEPS += \
 src/ASN.1/%.o: ../src/ASN.1/%.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: GCC C Compiler'
-	gcc -I"/home/alexis/workspace/testcodejordi/src" -I"/home/alexis/workspace/testcodejordi/src/ASN.1" -I"/home/alexis/workspace/testcodejordi/src/MultimediaSystem/includes" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
+	gcc -I"/home/alexis/workspace/test/src" -I"/home/alexis/workspace/test/src/ASN.1" -I"/home/alexis/workspace/test/src/MultimediaSystem/includes" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
